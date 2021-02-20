@@ -51,7 +51,7 @@ int main(){
 	printf("\nAfter caclculating: \n");
 	r=partialSums(p,num);
 	for(i=0;i<num;i++){
-		printf("%d\n ",r[i]);
+		printf("%d ",r[i]);
 	}
 	free(p); /*relaseing the memory that pointer take's */
 	free(r); /*relaseing the memory that pointer take's */
